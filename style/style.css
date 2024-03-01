@@ -16,45 +16,34 @@ body {
     overflow: hidden;
 
 }
-.container{
-    max-width:fit-content;
-}
+
 a{
     color: black;
     text-decoration: none;
     
 }
 
-.nav {
+nav {
     display: flex;
     justify-content: right;
-     margin-top: 3%;
+     margin-top: 1%;
 }
 
-.nav a{
+nav a{
     display: flex;
     justify-content:space-evenly;
     width: 5%;
     margin-right: 10px;
 }
-.center img{
+section img{
     width:20%
 }
-.center{
-    display: flex;
-    justify-content: center;
-    margin-top: 5%;
-}
+
 
 .search_form{
     width: 100%;
-    margin-left: 25%;
     position: relative;
     
-}
-.buttons{
-    width: 100%;
-    margin-left: 40%;
 }
 .search_form img{
     width: 2%;
@@ -82,9 +71,6 @@ input[type=button] {
     padding: 13px;
 
 }
-.content p{
-    text-align: center;
-}
 p a:visited{
 
     color: blue;
@@ -92,203 +78,6 @@ p a:visited{
 p a:link{
     color: rgb(138, 45, 104);
 }
-footer{
-    position:relative;
-   margin-top: 10%;
-}
-.footer{
-    background-color: rgb(250, 248, 248);
-   
-    
-}
-.footerlink{
-    border-top: 2px solid rgb(212, 205, 205);
-    padding: 8px;
-    padding-left: 15px;
-    padding-bottom: 20px;
-    display: flex;
-    justify-content: space-between;
-    font-size: 15px;
 
-}
-.country{
-    padding-top: 0.3px;
-    padding-left: 15px;
-    color: #393838;
-}
-.rightlink{
-    padding-right: 10px;
-}
-@media only screen and (max-width:360px) {
-    .container{
-        width: 100%;
 
-    }
-    .nav{
-        width: 40%;
-        margin-left: 60%;
-        justify-content:space-evenly;
-        font-size: 8px;
-    }
-    .center img{
-        width:18%
-    }
-    .search_form input[type=text]{
-        width: 80%;
-        margin-left:-9%;
-        padding: 10px;
-    }
-    .search_form img{
-        width: 3%;
-        margin-left: -31px;
-        margin-top: 13px;
-    }
-    .buttons{
-        margin-left: 20%;
-    }
-    .buttons input[type=button]{
-        width: 35%;
-        font-size: 3px;
-    }
-    p{
-        font-size: 8px;
-        margin-left: 20px;
-    }
-   
-    .footerlink{
-        font-size: 6px;
-    }
 
-    
-}
-@media only screen and (max-width:600px) {
-    .container{
-        width: 100%;
-
-    }
-    .nav{
-        width: 40%;
-        margin-left: 60%;
-        justify-content:space-evenly;
-        font-size: 8px;
-    }
-    .center img{
-        width:18%
-    }
-    .search_form input[type=text]{
-        width: 80%;
-        margin-left:-9%;
-        padding: 10px;
-    }
-    .search_form img{
-        width: 3%;
-        margin-left: -31px;
-        margin-top: 13px;
-    }
-    .buttons{
-        margin-left: 20%;
-    }
-    .buttons input[type=button]{
-        width: 35%;
-        font-size: 12px;
-    }
-    p{
-        font-size: 8px;
-        margin-left: 20px;
-    }
-    .footerlink{
-        font-size: 9px;
-    
-    }
-    
-}
-@media only screen and (max-width:768px) {
-    .container{
-        width: 100%;
-
-    }
-    .nav{
-        width: 30%;
-        margin-left: 60%;
-        justify-content:space-evenly;
-        font-size: 8px;
-    }
-    .center img{
-        width:18%
-    }
-    
-    .search_form img{
-        width: 3%;
-        margin-top: 20px;
-       margin-left: 30px;
-    }
-    .buttons{
-        margin-left: 30%;
-    }
-    .buttons input[type=button]{
-        width: 20%;
-        font-size: 12px;
-    }
-    p{
-        font-size: 8px;
-        margin-left: 20px;
-    }
-    footer{
-        margin-bottom: -50%;
-    }
-    .footer{
-        font-size: 8px;
-        width: 100%;
-    }
-    .rightlink{
-        margin-right: 45px;
-    }
-    
-}
-    
-
-@media only screen and (max-width:1024px) {
-    .container{
-        width: 100%;
-
-    }
-    .nav{
-        width: 40%;
-        margin-left: 60%;
-        justify-content:space-evenly;
-        font-size: 8px;
-    }
-    .center img{
-        width:18%
-    }
-    .search_form input[type=text]{
-        width: 80%;
-        margin-left:-9%;
-        padding: 10px;
-    }
-    .search_form img{
-        width: 3%;
-        margin-left: -31px;
-        margin-top: 13px;
-    }
-    .buttons{
-        margin-left: 20%;
-    }
-    .buttons input[type=button]{
-        width: 35%;
-        font-size: 12px;
-    }
-    p{
-        font-size: 8px;
-        margin-left: 20px;
-    }
-    footer{
-        margin-top: 30%;
-    }
-    .footer{
-        font-size: 15px;
-    }
-    
-
-    
-}
